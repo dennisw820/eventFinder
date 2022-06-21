@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #0083B0 5%, #00B4DB , #ffff 90%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#container {
+    padding: 10%;
+    padding-top: 7%;
+    padding-bottom: 21%;
+}
+/*
+#navbar {
+    height: 10vh;
+    width: 100%;
+    box-shadow: ;
+    background-image: linear-gradient(to right, #0083B0, #00B4DB);
+    color: #ffffff;
+}
+#nav-logo {
+    position: absolute;
+}
+*/
+a {
+    text-decoration: none;
+    list-style: none;
+}
+h1 {
+    font-family: 'Rouge Script', cursive;
+    font-size: 125px;
+    color: #ffffff;
+}
+.motto {
+    text-align: center;
+    padding: 0 0 10%;
+    font-size: 30px;
+    color: 
+    #ffffff;
+}
+.heading {
+    text-align: center;
+}
+input, select{
+    border: none;
+    outline: none;
+    background: #ffffff;
+    font-family: sans-serif;
+}
+#name {
+    width: 50%;
+    padding: 2.9%;
+}    
+#category {
+    width: 20%;
+    padding: 2.9%;
+}
+#btn {
+    width: 20%;
+    padding: 3.1%;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0px;
+    background-image: linear-gradient(to right,#0083B0,#00B4D4);
+    cursor: pointer;
+}
+
+/*Results*/
+#result {
+    display: flexbox;
+    width: 97%;
+    padding: 20px 0 20px;
+    overflow-x: hidden;
+}
+.links {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.results {
+    padding: 30px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+}
+.result-img {
+    display: inline;
+    width: 25%;
+}
+.result-title {
+    display: inline-block;
+}
+.result-date {
+    display: block;
+}
+.result-cost {
+    display: inline;
+    float: right;
+}
+
+/*Footer*/
+#footer {
+    height: 100%;
+    width: 100%;
+    box-shadow: ;
+    background-image: linear-gradient(to right, #0083B0, #00B4DB);
+    color: #ffffff;
+}
+#copyright {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    padding: 3%;
+}

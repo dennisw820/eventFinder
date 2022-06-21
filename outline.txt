@@ -1,0 +1,4 @@
+Description:
+    This is a web app that gets the user location and returns search results based on search keywords and similar/suggested results. Users are able to view details about results and perform actions such as getting directions and purchasing tickets through third party applications.
+
+Objectives:
